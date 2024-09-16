@@ -1,59 +1,60 @@
 import conf from "../../config/Conf";
 import { Client, Account, ID } from "appwrite";
+import toast, { Toaster } from "react-hot-toast";
 
-export class AuthService{
+export class AuthService {
     client = new Client();
     account;
 
-    constructor(){
+    constructor() {
         this.client
-        .setEndpoint(conf.appWriteUrl)
-        .setProject(conf.appWriteProjectId);
+            .setEndpoint(conf.appWriteUrl)
+            .setProject(conf.appWriteProjectId);
         this.account = new Account(this.client);
+            
     }
 
-    async createAccount({email,password,name}){
-        try{
-          const user =  await this.account.create(ID.unique(),email,password,name);
-          if (user) {
-            return this.login({email,password});
-          }
-          else{
-            return user;
-          }
-        }catch(error){
-            throw error;
-        }
-    }
-
-    async login({email,password}){
+    async createAccount({email, password, name}) {
         try {
-         return await this.account.createEmailSession(email,password);
+            const userAccount = await this.account.create(ID.unique(), email, password, name);
+            if (userAccount) {
+                return this.login({email, password});
+            } else {
+               return  userAccount;
+            }
         } catch (error) {
             throw error;
         }
     }
 
-    async getCurrentUser(){
+    async login({email, password}) {
         try {
-           return await this.account.get();
+            return await this.account.createEmailPasswordSession(email, password);
         } catch (error) {
             throw error;
         }
-        return null;
     }
 
-    async logout(){
+    async getCurrentUser() {
+        try {
+            return await this.account.get();
+        } catch (error) {
+            throw error;
+        }
+    }
+
+    async logout() {
+
         try {
             await this.account.deleteSessions();
+            toast.success('Logout Successfully')
         } catch (error) {
-            throw error;
+            console.log("Appwrite serive :: logout :: error", error);
+            toast.error(error.message)
         }
-
     }
-
 }
 
 const authService = new AuthService();
 
-export default authService;
+export default authService
