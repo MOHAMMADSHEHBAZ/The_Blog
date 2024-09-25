@@ -51,11 +51,11 @@ return(
              <Container>
                  <div>
                  <div className="flex flex-wrap mt-10">
-                         <div className=" flex items-center justify-around p-2 w-full">
+                         <div className=" flex items-center justify-around flex-col-reverse lg:flex-row p-2 w-full">
                              <h1 className=" flex items-center justify-center text-2xl h-96 font-bold ">
                                  <img src={img} className='w-full h-full' loading='lazy' alt="" />
                              </h1>
-                             <h1 className=" p-24 w-2/3 text-2xl h-72 font-bold ">
+                             <h1 className=" lg:p-24 w-2/3 text-2xl lg:h-72 font-bold ">
                                  <p className='text-3xl text-slate-600'>Welcome to The Blog</p>
                                  <p className='text-xl text-slate-500 py-2 font-medium'>Discover a world of creativity through photos shared by people just like you! The Blog is your space to post, share, and explore moments captured in images.</p>
                              </h1>
