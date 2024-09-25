@@ -35,7 +35,7 @@ const Signup = () => {
     <div className="mb-2 flex justify-center">
             
         </div>
-        <h2 className="mb-8 text-2xl font-bold text-gray-800 dark:text-white">Sign up to create account</h2>
+        <h2 className="mb-8 text-2xl font-bold text-gray-800">Sign up to create account</h2>
         {/* {error && <p className="text-red-600 mt-8 text-center">{error}</p>} */}
         <Toaster/>
         <form onSubmit={handleSubmit(create)}>

@@ -41,7 +41,7 @@ function Login() {
                         {/* <Logo width="100%" /> */}
                     </span>
         </div>
-        <h2 className="mb-8 text-2xl font-bold text-gray-800 dark:text-white">Sign in to your account</h2>
+        <h2 className="mb-8 text-2xl font-bold text-gray-800">Sign in to your account</h2>
         {/* {error && <p className="text-red-600 mt-8 text-center">{error}</p>} */}
         <form onSubmit={handleSubmit(login)} className='mt-8'>
             <Toaster/>
