@@ -17,7 +17,10 @@ function Footer() {
                             </div>
                             <div>
                                 <p className="text-sm text-gray-600">
-                                    &copy; Copyright 2023. All Rights Reserved.
+                                    &copy; Copyright 2023. | 
+                                    <a href="https://github.com/MOHAMMADSHEHBAZ" target='_blank'>
+                                    @MohammadShehbaz
+                                    </a>
                                 </p>
                             </div>
                         </div>
@@ -33,7 +36,9 @@ function Footer() {
                                         className=" text-base font-extralight text-gray-500 hover:text-gray-700"
                                         to="/"
                                     >
+                                        <a href="https://github.com/MOHAMMADSHEHBAZ" target='_blank'>
                                         Features
+                                        </a>
                                     </Link>
                                 </li>
                                 <li className="mb-4">
@@ -41,7 +46,9 @@ function Footer() {
                                         className=" text-base font-extralight text-gray-500 hover:text-gray-700"
                                         to="/"
                                     >
+                                        <a href="https://github.com/MOHAMMADSHEHBAZ" target='_blank'>
                                         Pricing
+                                        </a>
                                     </Link>
                                 </li>
                                 <li className="mb-4">
@@ -49,15 +56,19 @@ function Footer() {
                                         className=" text-base font-extralight text-gray-500 hover:text-gray-700"
                                         to="/"
                                     >
+                                        <a href="https://github.com/MOHAMMADSHEHBAZ" target='_blank'>
                                         Affiliate Program
+                                        </a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link
                                         className=" text-base font-extralight text-gray-500 hover:text-gray-700"
                                         to="/"
-                                    >
-                                        Press Kit
+                                    >   
+                                    <a href="https://github.com/MOHAMMADSHEHBAZ" target='_blank'>
+                                    Press Kit
+                                    </a>
                                     </Link>
                                 </li>
                             </ul>
@@ -74,7 +85,9 @@ function Footer() {
                                         className=" text-base font-extralight text-gray-500 hover:text-gray-700"
                                         to="/"
                                     >
+                                        <a href="https://github.com/MOHAMMADSHEHBAZ" target='_blank'>
                                         Account
+                                        </a>
                                     </Link>
                                 </li>
                                 <li className="mb-4">
@@ -82,7 +95,9 @@ function Footer() {
                                         className=" text-base font-extralight text-gray-500 hover:text-gray-700"
                                         to="/"
                                     >
+                                        <a href="https://github.com/MOHAMMADSHEHBAZ" target='_blank'>
                                         Help
+                                        </a>
                                     </Link>
                                 </li>
                                 <li className="mb-4">
@@ -90,7 +105,9 @@ function Footer() {
                                         className=" text-base font-extralight text-gray-500 hover:text-gray-700"
                                         to="/"
                                     >
+                                        <a href="https://github.com/MOHAMMADSHEHBAZ" target='_blank'>
                                         Contact Us
+                                        </a>
                                     </Link>
                                 </li>
                                 <li>
@@ -98,7 +115,9 @@ function Footer() {
                                         className=" text-base font-extralight text-gray-500 hover:text-gray-700"
                                         to="/"
                                     >
+                                        <a href="https://github.com/MOHAMMADSHEHBAZ" target='_blank'>
                                         Customer Support
+                                        </a>
                                     </Link>
                                 </li>
                             </ul>
@@ -115,7 +134,9 @@ function Footer() {
                                         className=" text-base font-extralight text-gray-500 hover:text-gray-700"
                                         to="/"
                                     >
+                                        <a href="https://github.com/MOHAMMADSHEHBAZ" target='_blank'>
                                         Terms &amp; Conditions
+                                        </a>
                                     </Link>
                                 </li>
                                 <li className="mb-4">
@@ -123,7 +144,9 @@ function Footer() {
                                         className=" text-base font-extralight text-gray-500 hover:text-gray-700"
                                         to="/"
                                     >
+                                        <a href="https://github.com/MOHAMMADSHEHBAZ" target='_blank'>
                                         Privacy Policy
+                                        </a>
                                     </Link>
                                 </li>
                                 <li>
@@ -131,7 +154,9 @@ function Footer() {
                                         className=" text-base font-extralight text-gray-500 hover:text-gray-700"
                                         to="/"
                                     >
+                                        <a href="https://github.com/MOHAMMADSHEHBAZ" target='_blank'>
                                         Licensing
+                                        </a>
                                     </Link>
                                 </li>
                             </ul>
