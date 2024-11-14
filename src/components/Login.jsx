@@ -31,7 +31,7 @@ function Login() {
     }
 
   return (
-    <div className='lg:p-24 lg:mt-0 pl-5 lg:mb-0 mt-24 mb-24 bg-gray-50'>
+    <div className='lg:p-24 lg:mt-1 pl-5 lg:mb-0 mt-24 mb-24 bg-gray-50'>
     <div
     className='flex items-center justify-center lg:w-full w-80'
     >

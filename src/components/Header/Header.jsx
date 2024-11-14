@@ -74,7 +74,7 @@ const Header = () => {
               <li key={item.name}>
                 <button
                 onClick={() => navigate(item.slug)}
-                className='inline-bock px-6 text-black font-light hover:text-white py-2 duration-200 hover:bg-slate-900 rounded-full'
+                className='inline-bock px-6 text-black font-light hover:text-white py-2 duration-200 hover:bg-gray-800 rounded-full'
                 >{item.name}</button>
               </li>
             ) : null
