@@ -47,7 +47,7 @@ const Home = () => {
   // )
   return (
     <>
-      <div className="w-full bg-gray-50 mt-1 py-8 text-center">
+      <div className="w-full mt-1 py-8 text-center">
         <Container>
           {/* <div>
                  <div className="flex flex-wrap mt-10">
@@ -66,24 +66,26 @@ const Home = () => {
             <div class="px-4 mt-12 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
               <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
                 <div class="h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
-                  <img
+                  {/* <img
                     alt=""
                     src="https://plus.unsplash.com/premium_photo-1682401101972-5dc0756ece88?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  />
+                  /> */}
+                  <iframe className="h-full w-full" src="https://lottie.host/embed/d48a846a-6aa9-4c56-bce6-6181b38a652c/npRyXX2l1p.lottie"></iframe>
+                  {/* <iframe className="h-full w-full" src="https://lottie.host/embed/6c2c14ba-7a32-4d1c-9db7-28dea91bc937/9ZrmN1hele.lottie"></iframe>   */}
                 </div>
 
                 <div class="lg:py-24">
-                  <h2 class="text-3xl font-bold sm:text-4xl">
+                  <h2 class="text-3xl text-gray-700 font-bold sm:text-4xl">
                     Welcome to The Blog
                   </h2>
 
-                  <p class="mt-4 text-gray-600">
+                  <p class="mt-4 text-gray-500">
                   Discover a world of creativity through photos shared by people just like you! The Blog is your space to post, share, and explore moments captured in images.
                   </p>
 
                   <a
                     href="/login"
-                    class="mt-8 inline-block rounded cursor-pointer bg-gray-800 px-12 py-3 text-sm font-medium text-white transition hover:bg-gray-50"
+                    class="mt-8 inline-block rounded cursor-pointer bg-gray-700 px-12 py-3 text-sm font-medium text-white transition hover:bg-white"
                     id="btn"
                   >
                     Get Started
